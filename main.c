@@ -4,6 +4,8 @@
 #include <errno.h>
 #include <fcntl.h>
 #include <unistd.h>
+#include <string.h>
+#include <stdlib.h>
 
 static int verbose=0;
 static int dspfd=-1;
